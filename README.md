@@ -24,15 +24,17 @@ SUPPORT IS STRICTLY NON-EXISTENT. IF YOU MUTATE YOUR INFRASTRUCTURE, YOU OWN THE
 
 ==============================================================================
 
-## NIS 2 Compliance Metadata
+## ZTA (Zero Trust Architecture) Compliance Metadata
 
-This module supports the documentation of NIS 2-related metadata for data-processing assets. It includes classifications for personal, special-category, biometric, and genetic data; legal bases for processing; and data-subject rights.
+This module supports the documentation of Zero Trust Architecture-related metadata for identity verification, device trust, and access-control assets. It includes classifications for user identity types, device trust levels, authentication factors, and access-control policies; trust-verification requirements; and access-enforcement procedures.
 
-Processing metadata supports documenting the data category, legal basis, purpose, number of affected data subjects, retention period, third-party sharing, and applicable data-subject rights. It also supports recording an optional legitimate-interest assessment.
+Identity and device verification metadata supports documenting user-identity verification status, multi-factor authentication implementation, device posture assessment, device compliance status, continuous authentication mechanisms, and verification-frequency intervals. It also supports recording an optional trust-reassessment policy.
 
-The data protection by design and default metadata supports documenting DPIA status, data-minimization, storage-limitation, and purpose-limitation measures, as well as transparency information. Security metadata supports recording information about encryption, access controls, pseudonymization, testing, incident-response planning, and employee training.
+The encryption and protection-by-design metadata supports documenting encryption-in-transit implementation, encryption-at-rest configuration, key-management location, data-classification schemes, pseudonymization measures, and network-segmentation architecture. Security metadata supports recording information about access-control enforcement, least-privilege implementation, monitoring and logging capabilities, threat-detection procedures, incident-response planning, and administrator training.
 
-Incident metadata supports documenting breach risk assessments, notification requirements, breach-register status, DPIA triggers, and a high-risk threshold. The asset-level record supports organizing this information alongside asset identifiers, data protection authority contact details, the date of the most recent DPIA, and a compliance score.
+Breach-assumption and access-control metadata supports documenting breach-response scenarios, lateral-movement containment strategies, access-review schedules, privilege-revocation procedures, implicit-trust removal status, and compliance-check triggers. Network and boundary metadata captures network segmentation policies, micro-segmentation rules, data-flow boundaries, and trust-zone classifications.
+
+The asset-level record supports organizing this information alongside asset identifiers, identity-verification owner contact details, responsible access-control administrator details, the date of the most recent access review, device trust assessment history, and a zero-trust compliance score.
 
 
 ==========================================================================================

@@ -37,10 +37,10 @@ Breach-assumption and access-control metadata supports documenting breach-respon
 The asset-level record supports organizing this information alongside asset identifiers, identity-verification owner contact details, responsible access-control administrator details, the date of the most recent access review, device trust assessment history, and a zero-trust compliance score.
 
 
-==========================================================================================
+===============================================================================
 
 ## Development Approach
 
 This application was architected with AI assistance. The architect specified the requirements, 
-constraints (NIS 2 compliance, Python 3.12, PostgreSQL 14, Ollama 0.33), and functional specifications. 
+constraints (ZTA compliance, Python 3.12, PostgreSQL 14, Ollama 0.33), and functional specifications. 
 The AI language model generated the implementation, database schemas, and documentation accordingly.

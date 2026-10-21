@@ -281,6 +281,4 @@ Internet → Perimeter Firewall → DMZ → Internal Network
 - Segregate vendor access: vendor can access only the minimum CMDB data needed (not entire CMDB)
 - Continuous audit: regularly verify vendor is not using access for unauthorized purposes
 - Incident response plan: if vendor is breached, immediate action to isolate vendor account and assess exposure
-
-| **1. Assessment** | Inventory current CMDB access controls; identify gaps vs. ZTA principles; assess readiness (technology, processes, skills) | 4-6 weeks | CISO, Infrastructure | Gap report; ZTA maturity baseline |
-| **2. Identity & Authentication**
+x
